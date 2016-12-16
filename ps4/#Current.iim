@@ -1,0 +1,6 @@
+﻿VERSION BUILD=10022823
+TAB T=1
+TAB CLOSEALLOTHERS
+URL GOTO=https://serviciosjava2.afip.gob.ar/rcel/jsp/genComDatosOperacion.do
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:datosOperacionForm ATTR=NAME:detallePrecio CONTENT=222
+TAG POS=1 TYPE=INPUT:BUTTON FORM=NAME:datosOperacionForm ATTR=VALUE:Continuar<SP>>
